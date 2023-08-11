@@ -1,0 +1,9 @@
+<section class="technologies">
+    <div class="title">
+        <h2>Conocimientos</h2>
+        <span class="line"></span>
+    </div>
+    <div class="technologies-container">
+        <app-tech-item *ngFor="let item of technologies" [name]="item.name" [lvl]="item.lvl"></app-tech-item>
+    </div>
+</section>

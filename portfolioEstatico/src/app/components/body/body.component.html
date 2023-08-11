@@ -1,5 +1,9 @@
-<body id='sky' #sky>
+<body id='sky' #sky>    
     <div class="star" *ngFor="let star of stars" [style.left.px]="star.x" [style.top.px]="star.y" [style.width.px]='star.tam' [style.height.px]='star.tam' [style.animation-delay]='star.del + "s"'></div>
     <div class="moon"></div>
+    <app-technologies></app-technologies>
     <app-header></app-header>
+    <app-about></app-about>
+    <app-works></app-works>
+
 </body>

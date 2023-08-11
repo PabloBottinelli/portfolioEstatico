@@ -1,0 +1,10 @@
+header{
+  width: 100%;
+  background-color: transparent;
+  height: 100vh;
+}
+
+.header-menu{
+  list-style: none;
+  font-size: 5rem;
+}

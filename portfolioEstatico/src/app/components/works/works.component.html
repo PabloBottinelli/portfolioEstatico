@@ -1,0 +1,9 @@
+<section class="works">
+    <div class="title">
+        <h2>Mis Trabajos</h2>
+        <span class="line"></span>
+    </div>
+    <div class="works-container">
+        <app-work-card *ngFor="let work of works" [img]="work.img" [link]="work.link" [description]="work.description" [title]="work.title"></app-work-card>
+    </div>
+</section>

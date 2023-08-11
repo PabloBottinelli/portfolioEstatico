@@ -1,0 +1,12 @@
+.works{
+    width: 100%;
+    position: relative;
+}
+.works-container{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: 20px;
+}
